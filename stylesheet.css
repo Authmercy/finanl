@@ -8,6 +8,7 @@ article .contenair1{
     background-image: url(Photo/pic1.jpg);
     background-size: cover;
 }
+/**/
 .texte .slogan1{
     display: flex;
     margin-top: 50px;
