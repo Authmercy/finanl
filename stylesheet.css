@@ -1,0 +1,212 @@
+
+/*body*/
+article .contenair1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 390px;
+    background-image: url(Photo/pic1.jpg);
+    background-size: cover;
+}
+.texte .slogan1{
+    display: flex;
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: rgb(87, 28, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.texte .slogan{
+    display: flex;
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.texte .para{
+    margin-top: 20px;
+    font-size: 1.9em;
+    width: 550px;
+    color: rgb(14, 13, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+article .contenair2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom:110px ;
+    position: relative;
+}
+
+.contenair2 .carreau {
+    width: 500px;
+    position: absolute;
+    left: 23%;
+    top: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+}
+
+.carreau .rêves{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(17, 148, 172);
+}
+
+.carreau .libre{
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(75, 75, 75);
+    margin-bottom: 20px;
+}
+.boutton input{
+    padding:  10px 20px;
+    border: 0px;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(51, 184, 139);
+    border-radius: 5px;
+    transition: 1s;
+}
+.boutton input:hover{
+    box-shadow: 2px 2px 5px rgb(85, 85, 85);
+    transition: 0.5s;
+    background-color: rgb(10, 78, 10);
+}
+
+.sous-contenair3{
+    width: 1350px;
+
+}
+hr{
+   
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.c-sc-1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(95, 106, 255);
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.item1{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+
+
+.sitem1 img{
+    width: 250px;
+    height: 200px;
+}
+
+.commentaire{
+    width: 250px;
+}
+
+.language{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.language a{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: rgb(61 126 154);
+}
+
+.item1 .commentaire{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+
+
+
+.item1 .sitem1{
+    padding: 15px;
+    transition: 1.2s;
+}
+
+.item1 .sitem1:hover{
+    box-shadow: 2px 2px 10px rgb(58, 58, 58);
+    transition: 0.5s;
+    border-radius: 5px;
+    transform: scale(1.1 , 1.1);
+    
+}
+
+
+footer{
+    margin-top: 100px;
+    border-top: 1px solid rgb(112, 112, 112);
+}
+
+footer .contenair{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenair a[class=link] {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: rgb(92, 92, 92);
+}
+
+.contenair a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3em;
+} 
+
+.contenair p{
+    margin: 10px 0px;
+}
+
+.contenair .ft{
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    
+}
+
+.s-contenair5 img{
+    width: 200px;
+    height: 50px;
+}
+
+.s-contenair5 {
+    margin-top: 50px;
+}
+
+.s-contenair5 div{
+    margin: 30px 0px;
+    height: 50px;
+}
+
+
+.copyright{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
