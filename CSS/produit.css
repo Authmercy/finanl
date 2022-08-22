@@ -1,0 +1,127 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-style: none;
+    background-color: rgb(229, 237, 238);
+   
+}
+body{font-family: 'spartan',sans-serif;}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    padding-left: 50px;
+}
+#menu{
+    display: flex;
+    
+}
+#menu li {
+    list-style: none;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: larger;
+}
+#menu li a:hover{
+    color:rgb(49, 136, 82);
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+  }
+#commerce{
+    background-size: cover;
+    height: 400px;
+   
+}
+
+.first{
+    padding-top: 100px;
+padding-left: 50%;}
+h4,h1,h2{padding-bottom: 8px;}
+p{color: rgb(81, 85, 88);}
+h1{
+    color:  rgb(27, 63, 51);
+    font-size: 50px;
+}
+h4{color: brown;}
+.boutton input{
+    margin-top: 10px;
+    background-color: bisque;
+    width: 80px;
+    height: 30px;
+    color: orange;
+    font-size: 015px;
+} 
+.pic img{
+    width: 270px;
+    border-radius: 20px;
+}
+.part21{
+    display: flex;
+justify-content: space-between;
+
+}
+.comm{
+    display: flex;
+}
+.prix1{text-decoration: line-through;
+font-size: small;
+padding-left: 10px;
+text-align: center;}
+.prix{color:green;
+    text-align: center;}
+.boutique{
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+   
+}
+.sous{
+    text-align: center;
+    padding-bottom: 10px;
+    color: blue;
+    font-size:20px ;}
+
+.items{
+    cursor: pointer;
+padding-left: 15px;
+padding-right: 15px;
+    text-align: center;
+}
+.items:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+    transform: scale(1.1 , 1.1);
+}
+.commentaire{text-align: center;}
+.banner{
+    margin-top: 30px;
+}
+.banner{
+    height: 350px;
+    background-size: cover;
+    
+}
+.bann{
+    padding-top: 100px;
+ text-align: center;
+}
+.banner button{
+    height:45px;
+    width:80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bann h4{
+    font-size: 30px;
+}
+.bann h2{
+    color:aliceblue;
+    font-size: 45px;
+}
